@@ -37,9 +37,6 @@ if (document.getElementById('sobre')) {
     document.getElementById('aceito').addEventListener("change", function () {
         dispararEventoSobre('aceito')
     }, false)
-    document.getElementById('aceito').addEventListener("change", function () {
-        dispararEventoSobre('aceito')
-    }, false)
     document.querySelector('.contato button[type="submit"]').addEventListener("click", function () {
         dispararEventoContato()
     }, false)
